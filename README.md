@@ -7,9 +7,9 @@
 ## Note
 
 ###### Each Branch For Each Assignment
-###### Don't copy my assignment, Just see and try by yourself 💓 
 
 ## Owner
 ###### 64010899 Sirati | CE60 KMITL Student
 
-
+---
+##### Remember Don't copy my assignment, Just see and try by yourself 💓 
