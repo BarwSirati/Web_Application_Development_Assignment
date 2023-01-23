@@ -3,11 +3,6 @@
 ## Describe
 ###### This Repository made for keep Web Application Development assignment
 
-
-## Note
-
-###### Each Branch For Each Assignment
-
 ## Owner
 ###### 64010899 Sirati | CE60 KMITL Student
 
