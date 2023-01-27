@@ -9,4 +9,4 @@
 ###### 64010899 Sirati | CE60 KMITL Student
 
 ---
-##### <div align="center">Remember Don't copy my assignment, Just see and try by yourself 💓</div>
+##### <div align="center">💓 Remember Don't copy my assignment, Just see and try by yourself 💓</div>
