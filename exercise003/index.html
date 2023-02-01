@@ -11,11 +11,93 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      * {
+        font-family: "Prompt", sans-serif;
+      }
+      html::-webkit-scrollbar {
+        display: none;
+      }
+      body {
+        background-color: rgb(15 23 42);
+      }
+      .header {
+        width: 100%;
+        height: 90vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-size: cover;
+        background-position: center;
+        background-image: url("https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?cs=srgb&dl=pexels-joyston-judah-933054.jpg&fm=jpg");
+      }
+      .content {
+        display: flex;
+        overflow: hidden;
+        flex-direction: column;
+        width: 100%;
+      }
+      .content > * {
+        margin-top: 50px;
+        margin-bottom: 50px;
+      }
+      .img-pic {
+        border-radius: 50%;
+        width: 15rem;
+        border: 4px solid #fff;
+        margin: auto;
+      }
+      .nav-box > * {
+        margin-left: 5px;
+        margin-right: 5px;
+      }
+      @media screen and (max-width: 768ox) {
+        .text-responsive {
+          display: none !important;
+        }
+      }
+    </style>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg bg-light py-2 sticky-top z-1">
+      <div class="container">
+        <div class="d-flex nav-box">
+          <a href="#" class="text-decoration-none">
+            <svg
+              version="1.1"
+              id="Layer_1"
+              xmlns="http://www.w3.org/2000/svg"
+              xmlns:xlink="http://www.w3.org/1999/xlink"
+              x="0px"
+              y="0px"
+              viewBox="0 0 2630.048 1183.47"
+              enable-background="new 0 0 2630.048 1183.47"
+              xml:space="preserve"
+              style="width: 80px"
+            >
+              <path
+                d="M2035.253,25.083c-51.166,220.999-227.512,428.018-504.138,500.478c-22.752-75.936-45.03-152.025-67.837-227.961
+         c-24.491,25.841-49.177,51.487-73.668,77.313c-23.531-21.102-125.641-21.102-149.172,0c-24.491-25.827-49.177-51.473-73.668-77.313
+         c-22.807,75.936-45.086,152.025-67.837,227.961c-275.93-72.278-453.239-280.633-504.138-500.478
+         c-127.2,160.142-313.234,256.693-559.771,254.595c155.522,16.465,306.551,116.352,306.137,268.134
+         c90.828-25.894,193.599-35.907,274.187,13.178c85.974,51.584,124.462,160.612,127.464,260.286
+         c220.38-155.073,413.404,91.672,510.163,337.112c4.374-17.289,15.941-76.498,62.048-139.675
+         c37.733,51.702,50.987,95.946,62.048,139.675c98.023-248.647,290.744-491.509,510.163-337.112
+         c6.386-212.028,138.808-348.398,401.652-273.464c-0.42-153.907,153.318-251.956,306.137-268.134
+         C2348.554,281.776,2161.748,184.337,2035.253,25.083z"
+              />
+            </svg>
+            <span class="navbar-brand fw-bold d-md-inline d-none">BXDMAN</span>
+          </a>
+        </div>
         <button
           class="navbar-toggler"
           type="button"
@@ -39,12 +121,22 @@
         </div>
       </div>
     </nav>
+    <div class="header">
+      <div class="content">
+        <img
+          src="https://avatars.githubusercontent.com/u/49112474?v=4"
+          class="img-pic shadow-lg"
+          alt=""
+        />
+        <div
+          class="text-white text-center fw-bold text-break"
+          style="text-shadow: #000 1px 0 10px"
+        >
+          <h1>Hi, My name is Sirati Hirunthani</h1>
+        </div>
+      </div>
+    </div>
   </body>
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-    crossorigin="anonymous"
-  ></script>
   <script
     src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
